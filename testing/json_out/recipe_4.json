@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "unsalted butter",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "granulated sugar",
+        "quantity": 0.75,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "packed brown sugar",
+        "quantity": 0.75,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "egg",
+        "quantity": 2,
+        "unit": "large"
+    },
+    {
+        "ingredient": "vanilla extract",
+        "quantity": 1,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "all-purpose flour",
+        "quantity": 2.25,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "baking soda",
+        "quantity": 1,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "semisweet chocolate chips",
+        "quantity": 2,
+        "unit": "cups"
+    }
+]

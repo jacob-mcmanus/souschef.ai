@@ -1,0 +1,72 @@
+[
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "onion",
+        "quantity": 1,
+        "unit": "medium"
+    },
+    {
+        "ingredient": "carrot",
+        "quantity": 2,
+        "unit": null
+    },
+    {
+        "ingredient": "celery stalk",
+        "quantity": 2,
+        "unit": null
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "diced tomatoes",
+        "quantity": 28,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "vegetable broth",
+        "quantity": 4,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "kidney beans",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "great northern beans",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "small pasta",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "zucchini",
+        "quantity": 1,
+        "unit": null
+    },
+    {
+        "ingredient": "chopped fresh parsley",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

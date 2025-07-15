@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "pumpkin puree",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "granulated sugar",
+        "quantity": 0.75,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "ground cinnamon",
+        "quantity": 1,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "ground ginger",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "ground cloves",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "egg",
+        "quantity": 2,
+        "unit": "large"
+    },
+    {
+        "ingredient": "evaporated milk",
+        "quantity": 12,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "unbaked pie crust",
+        "quantity": 9,
+        "unit": "inch"
+    }
+]

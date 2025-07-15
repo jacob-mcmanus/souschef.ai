@@ -1,24 +1,24 @@
 from llm import LLM, recipe_parser as rp
-import json
+from nutrition import db
 
 def main():
-    
-    #llm = LLM.Mistral_LLM()
-    llm = LLM.Gemma_LLM()
+    # Initiate LLM
+    llm = LLM.Gemma_2B_LLM()
     
     # Get user recipe here
     with open("recipe.txt", "r", encoding="utf-8") as f:
         raw_input_text = f.read()
 
     # Pre process user input
-    #raw_input_text = input("Paste recipe ingredients:\n")
     prompt = rp.pre_process_input(raw_input_text)
 
+    # Get response from LLM
     response = llm.run(prompt)
 
-    parsed_json = rp.extract_json_from_output(response)
+    # Extract json from LLM
+    recipe_json = rp.extract_json_from_output(response)
     
-    rp.print_JSON(parsed_json)
+    rp.print_JSON(recipe_json)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,57 @@
+[
+    {
+        "ingredient": "romaine lettuce",
+        "quantity": 1,
+        "unit": "large head"
+    },
+    {
+        "ingredient": "croutons",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "grated parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "anchovy fillet",
+        "quantity": 2,
+        "unit": null
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "egg yolk",
+        "quantity": 1,
+        "unit": null
+    },
+    {
+        "ingredient": "dijon mustard",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "fresh lemon juice",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

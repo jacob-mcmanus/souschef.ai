@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "egg",
+        "quantity": 3,
+        "unit": "large"
+    },
+    {
+        "ingredient": "milk or water",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "freshly ground black pepper",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "unsalted butter",
+        "quantity": 1,
+        "unit": "tablespoon"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "ingredient": "mayonnaise",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "apple cider vinegar",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "sugar",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "black pepper",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "shredded cabbage",
+        "quantity": 4,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "shredded carrot",
+        "quantity": 1,
+        "unit": "cup"
+    }
+]

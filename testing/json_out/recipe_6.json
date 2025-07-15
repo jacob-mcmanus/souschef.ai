@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "fettuccine",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "boneless, skinless chicken breast",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "butter",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "heavy cream",
+        "quantity": 1.5,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "grated parmesan cheese",
+        "quantity": 1.5,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "black pepper",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "chopped fresh parsley",
+        "quantity": 2,
+        "unit": "tablespoons"
+    }
+]

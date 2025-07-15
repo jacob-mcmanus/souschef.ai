@@ -1,0 +1,52 @@
+[
+    {
+        "ingredient": "vegetable oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "onion",
+        "quantity": 1,
+        "unit": "large"
+    },
+    {
+        "ingredient": "ground beef",
+        "quantity": 2,
+        "unit": "pounds"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 3,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "chili powder",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "ground cumin",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "diced tomatoes",
+        "quantity": 28,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "kidney beans",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "black beans",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "beef broth",
+        "quantity": 1,
+        "unit": "cup"
+    }
+]

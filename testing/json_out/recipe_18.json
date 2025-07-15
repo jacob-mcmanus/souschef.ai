@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "russet potato",
+        "quantity": 2,
+        "unit": "pounds"
+    },
+    {
+        "ingredient": "milk or cream",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "unsalted butter",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "freshly ground black pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

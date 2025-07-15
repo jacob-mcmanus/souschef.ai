@@ -1,0 +1,37 @@
+[
+    {
+        "ingredient": "spaghetti",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "egg yolk",
+        "quantity": 4,
+        "unit": "large"
+    },
+    {
+        "ingredient": "grated pecorino romano cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "grated parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "pancetta or guanciale",
+        "quantity": 4,
+        "unit": "ounces"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "freshly ground black pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

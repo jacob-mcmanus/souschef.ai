@@ -1,0 +1,50 @@
+1.  Classic Pancakes
+2.  Simple Tomato Soup
+3.  Guacamole
+4.  Chocolate Chip Cookies
+5.  Baked Salmon
+6.  Chicken Alfredo
+7.  Beef Chili
+8.  Classic Margarita
+9.  Caesar Salad
+10. Banana Bread
+11. Scrambled Eggs
+12. Oatmeal
+13. French Toast
+14. Grilled Cheese Sandwich
+15. Caprese Salad
+16. Spaghetti Carbonara
+17. Chicken Noodle Soup
+18. Mashed Potatoes
+19. Brownies
+20. Apple Pie
+21. Pulled Pork
+22. Coleslaw
+23. Macaroni and Cheese
+24. Beef Tacos
+25. Pico de Gallo
+26. Mango Salsa
+27. Strawberry Smoothie
+28. Blueberry Muffins
+29. Pumpkin Pie
+30. Butternut Squash Soup
+31. Ratatouille
+32. Lemonade
+33. Iced Tea
+34. Hot Chocolate
+35. Classic Omelette
+36. Crepes
+37. Waffles
+38. Potato Salad
+39. Cornbread
+40. Meatloaf
+41. Shepherd's Pie
+42. Fish and Chips
+43. Clam Chowder
+44. Minestrone Soup
+45. Hummus
+46. Tzatziki Sauce
+47. Pesto Pasta
+48. Lasagna
+49. Chicken Parmesan
+50. Fajitas

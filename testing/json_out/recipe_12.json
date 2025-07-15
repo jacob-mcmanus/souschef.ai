@@ -1,0 +1,17 @@
+[
+    {
+        "ingredient": "rolled oats",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "water or milk",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 1,
+        "unit": "pinch"
+    }
+]

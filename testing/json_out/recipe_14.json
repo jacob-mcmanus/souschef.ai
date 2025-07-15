@@ -1,0 +1,17 @@
+[
+    {
+        "ingredient": "bread",
+        "quantity": 2,
+        "unit": "slices"
+    },
+    {
+        "ingredient": "cheddar cheese",
+        "quantity": 2,
+        "unit": "slices"
+    },
+    {
+        "ingredient": "butter",
+        "quantity": 2,
+        "unit": "tablespoons"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "ingredient": "pasta",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "fresh basil leaves",
+        "quantity": 2,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "grated parmesan cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "pine nuts",
+        "quantity": 0.33,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 3,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "freshly ground black pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

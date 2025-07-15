@@ -14,20 +14,66 @@ def unicode_fraction_to_float(text):
     return text
 
 def pre_process_input(recipe):
-    prompt = """
-    Extract the following ingredient list into structured JSON. For each ingredient, extract:
+    prompt_template = f"""
+    You are an expert recipe parser. Your task is to extract ingredients from the provided text into a structured JSON array.
 
-    - ingredient: name (normalized)
-    - quantity: in decimal format
-    - unit: cups, teaspoons, etc.
+    ### Rules
+    1.  **ingredient**: Use the lowercase, singular form of the ingredient name. (e.g., "2 large eggs" becomes "egg").
+    2.  **quantity**: Provide the numeric quantity as a decimal. If there is no quantity available for the specific ingredient (e.g., "Pepper to taste"), set the quantity as 0.
+    3.  **unit**: Use the lowercase, singular form of the unit (e.g., "cups" becomes "cup"). If there is no unit available for the specific ingredient (e.g., "Pepper to taste"), the value must be `null`.
 
-    Input:
+
+    ### Example
+    **Example Input Text:**
+        2 large eggs
+        1/2 cup all-purpose flour
+        1 Teaspoon of Salt
+        Pepper to Taste
+
+    **Example Output JSON:**
+        ```json
+        [
+        {{
+            "ingredient": "egg",
+            "quantity": 2,
+            "unit": "large"
+        }},
+        {{
+            "ingredient": "all-purpose flour",
+            "quantity": 0.5,
+            "unit": "cup"
+        }},
+        {{
+            "ingredient": "salt",
+            "quantity": 1,
+            "unit": "teaspoon"
+        }},
+        {{
+            "ingredient": "pepper",
+            "quantity": 0,
+            "unit": "null"
+        }}
+        ]
+        ```
     """
-    recipe = unicode_fraction_to_float(recipe)
-    return prompt + recipe.strip() + "\n\nOutput:\n"
+
+    processed_recipe = unicode_fraction_to_float(recipe)
+    
+    final_prompt = (
+        prompt_template +
+        "\n### Recipe to Parse\n" +
+        f"**Input Text:**\n{processed_recipe.strip()}\n\n" +
+        "(Respond ONLY with the JSON array. No explanation, no markdown, no extra text. Remember to convert all fractions into the corresponding decimal values.) Output:\n"
+    )
+
+    return final_prompt
 
 def extract_json_from_output(text):
-    # Try to isolate the first JSON block
+    # Find the position of "Output:"
+    output_idx = text.find("Output:")
+    if output_idx != -1:
+        text = text[output_idx + len("Output:") :]
+    # Now extract the first JSON array after Output:
     try:
         json_block = re.search(r"\[.*?\]", text, re.DOTALL).group()
         return json.loads(json_block)

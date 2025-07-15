@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "unsweetened cocoa powder",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "granulated sugar",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "milk",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "vanilla extract",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 1,
+        "unit": "pinch"
+    }
+]

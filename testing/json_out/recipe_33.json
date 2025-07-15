@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "black tea bag",
+        "quantity": 8,
+        "unit": null
+    },
+    {
+        "ingredient": "boiling water",
+        "quantity": 4,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "granulated sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "cold water",
+        "quantity": 4,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "lemon slices",
+        "quantity": null,
+        "unit": "for garnish"
+    }
+]

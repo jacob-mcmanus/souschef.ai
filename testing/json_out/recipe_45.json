@@ -1,0 +1,42 @@
+[
+    {
+        "ingredient": "chickpeas",
+        "quantity": 15,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "fresh lemon juice",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "tahini",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "ground cumin",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "water",
+        "quantity": 3,
+        "unit": "tablespoons"
+    }
+]

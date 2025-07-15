@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "onion",
+        "quantity": 1,
+        "unit": "medium"
+    },
+    {
+        "ingredient": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+    },
+    {
+        "ingredient": "crushed tomatoes",
+        "quantity": 28,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "vegetable broth",
+        "quantity": 2,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "dried basil",
+        "quantity": 1,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "heavy cream",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

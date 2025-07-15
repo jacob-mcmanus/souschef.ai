@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "elbow macaroni",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "unsalted butter",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "all-purpose flour",
+        "quantity": 0.25,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "milk",
+        "quantity": 3,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "shredded sharp cheddar cheese",
+        "quantity": 2,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "shredded gruyere cheese",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "black pepper",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "paprika",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    }
+]

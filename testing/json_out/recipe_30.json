@@ -1,0 +1,47 @@
+[
+    {
+        "ingredient": "butternut squash",
+        "quantity": 1,
+        "unit": "medium"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "onion",
+        "quantity": 1,
+        "unit": "medium"
+    },
+    {
+        "ingredient": "carrot",
+        "quantity": 2,
+        "unit": null
+    },
+    {
+        "ingredient": "celery stalk",
+        "quantity": 2,
+        "unit": null
+    },
+    {
+        "ingredient": "vegetable broth",
+        "quantity": 4,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "dried thyme",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": null,
+        "unit": "to taste"
+    },
+    {
+        "ingredient": "pepper",
+        "quantity": null,
+        "unit": "to taste"
+    }
+]

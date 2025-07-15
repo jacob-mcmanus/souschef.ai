@@ -1,0 +1,42 @@
+[
+    {
+        "ingredient": "double-crust pie",
+        "quantity": 1,
+        "unit": "recipe"
+    },
+    {
+        "ingredient": "thinly sliced, peeled apple",
+        "quantity": 6,
+        "unit": "cups"
+    },
+    {
+        "ingredient": "granulated sugar",
+        "quantity": 0.75,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "all-purpose flour",
+        "quantity": 2,
+        "unit": "tablespoons"
+    },
+    {
+        "ingredient": "ground cinnamon",
+        "quantity": 1,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "ground nutmeg",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "lemon juice",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "unsalted butter",
+        "quantity": 2,
+        "unit": "tablespoons"
+    }
+]
