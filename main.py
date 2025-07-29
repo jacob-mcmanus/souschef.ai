@@ -25,7 +25,7 @@ class SousChefAI:
         # Initialize the LLM for parsing recipe text.
         self.llm = LLM.Gemma_2B_LLM()
         # Initialize the RecipeAnalyzer for fetching nutritional data.
-        self.calculator = RecipeAnalyzer(api_key="28c8aad39bb8442a9e4294aac85fc863")
+        self.calculator = RecipeAnalyzer(api_key=<key>)
         
         # This will store the detailed nutritional data for the details popup.
         self.full_nutrition_data = None
