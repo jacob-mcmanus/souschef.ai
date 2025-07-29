@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "egg",
+    "quantity": 3,
+    "unit": "large"
+  },
+  {
+    "ingredient": "butter",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "milk",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "cheddar cheese",
+    "quantity": 0.25,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "to taste"
+  },
+  {
+    "ingredient": "black pepper",
+    "quantity": 0,
+    "unit": "to taste"
+  }
+]

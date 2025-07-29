@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "tomato",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "broth",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "cream",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 2,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "oil",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0,
+    "unit": "garnish"
+  }
+]

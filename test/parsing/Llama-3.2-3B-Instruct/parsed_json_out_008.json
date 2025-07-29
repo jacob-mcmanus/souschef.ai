@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "tuna",
+    "quantity": 0.5,
+    "unit": "can"
+  },
+  {
+    "ingredient": "mayonnaise",
+    "quantity": 0.25,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "celery",
+    "quantity": 1,
+    "unit": "stalk"
+  },
+  {
+    "ingredient": "bread",
+    "quantity": 2,
+    "unit": "slices"
+  },
+  {
+    "ingredient": "lettuce",
+    "quantity": 0,
+    "unit": "leaf"
+  }
+]

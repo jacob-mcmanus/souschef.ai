@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "spaghetti",
+    "quantity": 1,
+    "unit": "pound"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 8,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "pepper flakes",
+    "quantity": 1,
+    "unit": "teaspoon"
+  },
+  {
+    "ingredient": "parsley",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "for boiling water"
+  }
+]

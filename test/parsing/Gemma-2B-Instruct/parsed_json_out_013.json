@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "egg",
+    "quantity": 0.25,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "milk",
+    "quantity": 0.25,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "butter",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.0,
+    "unit": "pinch"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0.0,
+    "unit": "pinch"
+  }
+]

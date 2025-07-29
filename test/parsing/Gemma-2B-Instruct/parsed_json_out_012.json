@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "mozzarella",
+    "quantity": 1,
+    "unit": "pound"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 4,
+    "unit": "large"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "balsamic",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 0,
+    "unit": "extra-virgin"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "eggs",
+    "quantity": 4,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "milk",
+    "quantity": 0.25,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "butter",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "pinch"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0,
+    "unit": "pinch"
+  }
+]

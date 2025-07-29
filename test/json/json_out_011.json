@@ -1,0 +1,32 @@
+[
+    {
+        "ingredient": "crushed tomato",
+        "quantity": 1,
+        "unit": "can"
+    },
+    {
+        "ingredient": "vegetable broth",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "heavy cream",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "garlic clove",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "basil",
+        "quantity": 0,
+        "unit": "sprig"
+    }
+]

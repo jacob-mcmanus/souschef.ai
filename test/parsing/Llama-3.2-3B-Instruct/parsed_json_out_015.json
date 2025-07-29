@@ -1,0 +1,52 @@
+[
+  {
+    "ingredient": "egg",
+    "quantity": 1.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "beef",
+    "quantity": 1.0,
+    "unit": "lb"
+  },
+  {
+    "ingredient": "seasoning",
+    "quantity": 0.75,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "shell",
+    "quantity": 8,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "lettuce",
+    "quantity": 0.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "tomato",
+    "quantity": 0.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "cheese",
+    "quantity": 0.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "water",
+    "quantity": 0.75,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.0,
+    "unit": "teaspoon"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0.0,
+    "unit": "teaspoon"
+  }
+]

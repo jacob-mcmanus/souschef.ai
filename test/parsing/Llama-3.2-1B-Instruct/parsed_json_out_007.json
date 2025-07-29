@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "oats",
+    "quantity": "0.5 cup",
+    "unit": "cup"
+  },
+  {
+    "ingredient": "mixed berries",
+    "quantity": "0.5 cup",
+    "unit": "cup"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": "0.5 cup",
+    "unit": "cup"
+  },
+  {
+    "ingredient": "milk",
+    "quantity": "1 cup",
+    "unit": "cup"
+  },
+  {
+    "ingredient": "water",
+    "quantity": "1 cup",
+    "unit": "cup"
+  },
+  {
+    "ingredient": "maple syrup",
+    "quantity": "1 tablespoon",
+    "unit": "tablespoon"
+  }
+]

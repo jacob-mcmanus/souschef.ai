@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "avocado",
+    "quantity": 3.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "lime",
+    "quantity": 1.0,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "diced red onion",
+    "quantity": 0.5,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "roma tomatoes",
+    "quantity": 2.0,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "jalape\u00f1o",
+    "quantity": 1.0,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "cilantro",
+    "quantity": 0.5,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.5,
+    "unit": "clove"
+  }
+]

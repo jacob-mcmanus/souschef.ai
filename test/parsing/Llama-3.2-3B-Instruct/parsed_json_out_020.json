@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "crust",
+    "quantity": 1.0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "sauce",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "cheese",
+    "quantity": 8.0,
+    "unit": "ounce"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0.0,
+    "unit": "handful"
+  },
+  {
+    "ingredient": "oil",
+    "quantity": 2.0,
+    "unit": "tablespoon"
+  }
+]

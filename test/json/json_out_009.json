@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "flour tortilla",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "monterey jack cheese",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "vegetable oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "salsa",
+        "quantity": 0,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "sour cream",
+        "quantity": 0,
+        "unit": "tablespoon"
+    }
+]

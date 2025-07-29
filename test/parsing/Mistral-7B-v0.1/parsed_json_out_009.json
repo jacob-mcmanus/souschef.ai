@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "large flour tortillas",
+    "quantity": 2,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "Monterey Jack cheese",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "vegetable oil",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "salsa",
+    "quantity": 0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "sour cream",
+    "quantity": 0,
+    "unit": "piece"
+  }
+]

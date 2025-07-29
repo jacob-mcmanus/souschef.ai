@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "egg",
+    "quantity": 0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "tomato",
+    "quantity": 0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "balsamic glaze",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 0,
+    "unit": "for drizzling"
+  }
+]

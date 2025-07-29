@@ -1,0 +1,22 @@
+[
+  {
+    "ingredient": "banana",
+    "quantity": 1.0,
+    "unit": "frozen"
+  },
+  {
+    "ingredient": "milk",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "yogurt",
+    "quantity": 0.25,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "peanut butter",
+    "quantity": 1.0,
+    "unit": "tablespoon"
+  }
+]

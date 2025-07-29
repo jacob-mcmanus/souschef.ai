@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "mozzarella",
+    "quantity": 1,
+    "unit": "pound"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 4,
+    "unit": "large"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "balsamic glaze",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 0,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0,
+    "unit": "teaspoon"
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "pre-baked pizza crust",
+        "quantity": 1,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "pizza sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "fresh mozzarella cheese",
+        "quantity": 8,
+        "unit": "ounce"
+    },
+    {
+        "ingredient": "fresh basil",
+        "quantity": 0,
+        "unit": "bunch"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 2,
+        "unit": "tablespoon"
+    }
+]

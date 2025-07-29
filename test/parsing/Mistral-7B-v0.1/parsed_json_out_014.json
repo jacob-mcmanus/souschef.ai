@@ -1,0 +1,44 @@
+[
+  {
+    "ingredient": "salmon fillets",
+    "quantity": 2,
+    "unit": "6-oz",
+    "type": "main"
+  },
+  {
+    "ingredient": "lemon",
+    "quantity": 1,
+    "unit": "half",
+    "type": "main"
+  },
+  {
+    "ingredient": "dill",
+    "quantity": 2,
+    "unit": "tablespoons",
+    "type": "main"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 2,
+    "unit": "cloves",
+    "type": "main"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 1,
+    "unit": "tablespoon",
+    "type": "main"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "to taste",
+    "type": "main"
+  },
+  {
+    "ingredient": "black pepper",
+    "quantity": 0,
+    "unit": "to taste",
+    "type": "main"
+  }
+]

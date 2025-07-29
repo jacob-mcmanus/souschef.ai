@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "chicken breast",
+    "quantity": 2.0,
+    "unit": "breast"
+  },
+  {
+    "ingredient": "broccoli",
+    "quantity": 1.0,
+    "unit": "head"
+  },
+  {
+    "ingredient": "oil",
+    "quantity": 2.0,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 1.0,
+    "unit": "teaspoon"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.0,
+    "unit": "teaspoon"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0.0,
+    "unit": "teaspoon"
+  }
+]

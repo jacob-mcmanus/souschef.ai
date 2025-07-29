@@ -1,0 +1,42 @@
+[
+  {
+    "ingredient": "olive oil",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "onion",
+    "quantity": 1,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "carrot",
+    "quantity": 2,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "celery",
+    "quantity": 2,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "lentil",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "vegetable broth",
+    "quantity": 6,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "tomato",
+    "quantity": 1,
+    "unit": "can"
+  },
+  {
+    "ingredient": "thyme",
+    "quantity": 1,
+    "unit": "teaspoon"
+  }
+]

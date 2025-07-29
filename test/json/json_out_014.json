@@ -1,0 +1,37 @@
+[
+    {
+        "ingredient": "salmon fillet",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "lemon",
+        "quantity": 1,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "fresh dill",
+        "quantity": 2,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "garlic clove",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "salt",
+        "quantity": 0,
+        "unit": "teaspoon"
+    },
+    {
+        "ingredient": "black pepper",
+        "quantity": 0,
+        "unit": "teaspoon"
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "ingredient": "beef",
+    "quantity": 1,
+    "unit": "lb"
+  },
+  {
+    "ingredient": "taco seasoning",
+    "quantity": 1,
+    "unit": "packet"
+  },
+  {
+    "ingredient": "water",
+    "quantity": 0.75,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "hard taco shells",
+    "quantity": 8,
+    "unit": "hard taco shells"
+  },
+  {
+    "ingredient": "lettuce",
+    "quantity": 0.75,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 8,
+    "unit": "cups"
+  },
+  {
+    "ingredient": "cheese",
+    "quantity": 0.75,
+    "unit": "cups"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0.75,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.75,
+    "unit": "clove"
+  }
+]

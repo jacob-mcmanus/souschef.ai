@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "chicken breast",
+    "quantity": 2,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "broccoli",
+    "quantity": 1,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 2,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "garlic powder",
+    "quantity": 1,
+    "unit": "teaspoon"
+  },
+  {
+    "ingredient": "black pepper",
+    "quantity": 0,
+    "unit": "clove"
+  }
+]

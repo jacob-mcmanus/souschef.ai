@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "avocado",
+    "quantity": 3,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "lime",
+    "quantity": 1,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "red onion",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "roma tomato",
+    "quantity": 2,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "jalape\u00f1o",
+    "quantity": 1,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "cilantro",
+    "quantity": 0.5,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0.5,
+    "unit": "teaspoon"
+  }
+]

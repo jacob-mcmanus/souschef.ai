@@ -1,0 +1,27 @@
+[
+    {
+        "ingredient": "fresh mozzarella",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "tomato",
+        "quantity": 4,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "fresh basil",
+        "quantity": 0.5,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "balsamic glaze",
+        "quantity": 2,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "extra-virgin olive oil",
+        "quantity": 0,
+        "unit": "tablespoon"
+    }
+]

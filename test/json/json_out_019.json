@@ -1,0 +1,42 @@
+[
+    {
+        "ingredient": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon"
+    },
+    {
+        "ingredient": "onion",
+        "quantity": 1,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "carrot",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "celery stalk",
+        "quantity": 2,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "brown lentil",
+        "quantity": 1,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "vegetable broth",
+        "quantity": 6,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "diced tomato",
+        "quantity": 1,
+        "unit": "can"
+    },
+    {
+        "ingredient": "dried thyme",
+        "quantity": 1,
+        "unit": "teaspoon"
+    }
+]

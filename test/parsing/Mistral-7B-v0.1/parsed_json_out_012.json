@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "mozzarella",
+    "quantity": 1,
+    "unit": "pound",
+    "description": "fresh mozzarella, sliced"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 4,
+    "unit": "large",
+    "description": "sliced"
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0.5,
+    "unit": "cup",
+    "description": "fresh basil leaves"
+  },
+  {
+    "ingredient": "balsamic glaze",
+    "quantity": 2,
+    "unit": "tablespoons",
+    "description": "balsamic glaze"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 0,
+    "unit": "extra-virgin",
+    "description": "for drizzling"
+  }
+]

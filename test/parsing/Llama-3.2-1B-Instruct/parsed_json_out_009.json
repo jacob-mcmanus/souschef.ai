@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "flour",
+    "quantity": 2,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "mmonterey jack cheese",
+    "quantity": 1,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "vegetable oil",
+    "quantity": 1,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "salsa",
+    "quantity": 0,
+    "unit": "clove"
+  },
+  {
+    "ingredient": "sour cream",
+    "quantity": 0,
+    "unit": "clove"
+  }
+]

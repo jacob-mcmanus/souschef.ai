@@ -1,0 +1,37 @@
+[
+    {
+        "ingredient": "ground beef",
+        "quantity": 1,
+        "unit": "pound"
+    },
+    {
+        "ingredient": "taco seasoning",
+        "quantity": 1,
+        "unit": "packet"
+    },
+    {
+        "ingredient": "water",
+        "quantity": 0.75,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "hard taco shell",
+        "quantity": 8,
+        "unit": "piece"
+    },
+    {
+        "ingredient": "shredded lettuce",
+        "quantity": 0,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "diced tomato",
+        "quantity": 0,
+        "unit": "cup"
+    },
+    {
+        "ingredient": "cheddar cheese",
+        "quantity": 0,
+        "unit": "cup"
+    }
+]

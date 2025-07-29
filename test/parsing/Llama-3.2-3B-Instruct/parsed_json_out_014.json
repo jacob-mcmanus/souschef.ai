@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "salmon",
+    "quantity": 2,
+    "unit": "fillets"
+  },
+  {
+    "ingredient": "lemon",
+    "quantity": 1,
+    "unit": "lemon"
+  },
+  {
+    "ingredient": "dill",
+    "quantity": 2,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 2,
+    "unit": "cloves"
+  },
+  {
+    "ingredient": "oil",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "to taste"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": 0,
+    "unit": "to taste"
+  }
+]

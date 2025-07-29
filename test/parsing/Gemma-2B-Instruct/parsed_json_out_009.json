@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "flour",
+    "quantity": 0.0,
+    "unit": "none"
+  },
+  {
+    "ingredient": "tortillas",
+    "quantity": 2.0,
+    "unit": "none"
+  },
+  {
+    "ingredient": "cheese",
+    "quantity": 1.0,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "oil",
+    "quantity": 1.0,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "salsa",
+    "quantity": 0.0,
+    "unit": "none"
+  },
+  {
+    "ingredient": "sour cream",
+    "quantity": 0.0,
+    "unit": "none"
+  }
+]

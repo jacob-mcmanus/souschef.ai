@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "sourdough bread",
+    "quantity": 1,
+    "unit": "slice",
+    "description": "toasted"
+  },
+  {
+    "ingredient": "avocado",
+    "quantity": 0.5,
+    "unit": "piece",
+    "description": "ripe"
+  },
+  {
+    "ingredient": "red pepper flakes",
+    "quantity": 1,
+    "unit": "pinch",
+    "description": ""
+  },
+  {
+    "ingredient": "lemon juice",
+    "quantity": 1,
+    "unit": "squeeze",
+    "description": ""
+  },
+  {
+    "ingredient": "sea salt",
+    "quantity": 0,
+    "unit": "teaspoon",
+    "description": "to taste"
+  }
+]

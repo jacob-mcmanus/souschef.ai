@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "cups",
+    "quantity": 1.5,
+    "unit": "all-purpose flour"
+  },
+  {
+    "ingredient": "tablespoons",
+    "quantity": 2,
+    "unit": "sugar"
+  },
+  {
+    "ingredient": "teaspoons",
+    "quantity": 2,
+    "unit": "baking powder"
+  },
+  {
+    "ingredient": "teaspoons",
+    "quantity": 1,
+    "unit": "salt"
+  },
+  {
+    "ingredient": "cups",
+    "quantity": 1.25,
+    "unit": "milk"
+  },
+  {
+    "ingredient": "large",
+    "quantity": 1,
+    "unit": "egg"
+  },
+  {
+    "ingredient": "tablespoons",
+    "quantity": 2,
+    "unit": "melted butter"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ingredient": "yogurt",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "granola",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "strawberries",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "honey",
+    "quantity": 1,
+    "unit": "teaspoon"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "mixed greens",
+    "quantity": 5,
+    "unit": "ounce"
+  },
+  {
+    "ingredient": "cherry tomatoes",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "cucumber",
+    "quantity": 0.5,
+    "unit": "cucumber"
+  },
+  {
+    "ingredient": "extra virgin olive oil",
+    "quantity": 3,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "red wine vinegar",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "Dijon mustard",
+    "quantity": 1,
+    "unit": "tablespoon"
+  }
+]

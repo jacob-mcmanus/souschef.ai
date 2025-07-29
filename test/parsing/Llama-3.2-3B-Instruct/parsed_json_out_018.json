@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "bread",
+    "quantity": 1,
+    "unit": "slice"
+  },
+  {
+    "ingredient": "avocado",
+    "quantity": 0.5,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "pepper flakes",
+    "quantity": 0,
+    "unit": "pinch"
+  },
+  {
+    "ingredient": "lemon juice",
+    "quantity": 0,
+    "unit": "squeeze"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "teaspoon"
+  }
+]

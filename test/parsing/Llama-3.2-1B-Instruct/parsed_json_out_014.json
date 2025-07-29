@@ -1,0 +1,32 @@
+[
+  {
+    "ingredient": "salmon",
+    "quantity": "2",
+    "unit": "oz"
+  },
+  {
+    "ingredient": "dill",
+    "quantity": "2",
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": "2",
+    "unit": "cloves"
+  },
+  {
+    "ingredient": "lemon",
+    "quantity": "1",
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "oils",
+    "quantity": "1",
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "pepper",
+    "quantity": "0",
+    "unit": "pinch"
+  }
+]

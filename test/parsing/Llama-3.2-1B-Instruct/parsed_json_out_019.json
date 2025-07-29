@@ -1,0 +1,42 @@
+[
+  {
+    "ingredient": "olive oil",
+    "quantity": 1,
+    "unit": "tablespoon"
+  },
+  {
+    "ingredient": "onion",
+    "quantity": 1,
+    "unit": "chopped"
+  },
+  {
+    "ingredient": "carrots",
+    "quantity": 2,
+    "unit": "diced"
+  },
+  {
+    "ingredient": "celery",
+    "quantity": 2,
+    "unit": "diced"
+  },
+  {
+    "ingredient": "lentils",
+    "quantity": 2,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "broth",
+    "quantity": 6,
+    "unit": "cups"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 1,
+    "unit": "can"
+  },
+  {
+    "ingredient": "thyme",
+    "quantity": 1,
+    "unit": "teaspoon"
+  }
+]

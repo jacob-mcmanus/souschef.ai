@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "pizza crust",
+    "quantity": 1,
+    "unit": "inch"
+  },
+  {
+    "ingredient": "pizza sauce",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "mozzarella cheese",
+    "quantity": 8,
+    "unit": "ounces"
+  },
+  {
+    "ingredient": "basil leaves",
+    "quantity": "A handful",
+    "unit": "leaf"
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 2,
+    "unit": "tablespoon"
+  }
+]

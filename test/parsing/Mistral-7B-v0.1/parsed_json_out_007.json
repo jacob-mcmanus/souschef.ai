@@ -1,0 +1,27 @@
+[
+  {
+    "ingredient": "oats",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "water",
+    "quantity": 1,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "salt",
+    "quantity": 0,
+    "unit": "pinch"
+  },
+  {
+    "ingredient": "berries",
+    "quantity": 0.5,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "maple syrup",
+    "quantity": 1,
+    "unit": "tablespoon"
+  }
+]

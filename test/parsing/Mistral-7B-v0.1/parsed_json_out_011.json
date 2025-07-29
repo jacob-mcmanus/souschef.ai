@@ -1,0 +1,38 @@
+[
+  {
+    "ingredient": "can",
+    "quantity": 1,
+    "unit": "can",
+    "value": 28
+  },
+  {
+    "ingredient": "vegetable broth",
+    "quantity": 1,
+    "unit": "cup",
+    "value": 0.5
+  },
+  {
+    "ingredient": "heavy cream",
+    "quantity": 0.5,
+    "unit": "cup",
+    "value": 0
+  },
+  {
+    "ingredient": "garlic",
+    "quantity": 2,
+    "unit": "clove",
+    "value": 0
+  },
+  {
+    "ingredient": "olive oil",
+    "quantity": 1,
+    "unit": "tablespoon",
+    "value": 0
+  },
+  {
+    "ingredient": "basil",
+    "quantity": 0,
+    "unit": "basil",
+    "value": 0
+  }
+]

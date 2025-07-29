@@ -1,0 +1,37 @@
+[
+  {
+    "ingredient": "ground beef",
+    "quantity": 1,
+    "unit": "lb"
+  },
+  {
+    "ingredient": "taco seasoning",
+    "quantity": 1,
+    "unit": "packet"
+  },
+  {
+    "ingredient": "water",
+    "quantity": 0.75,
+    "unit": "cup"
+  },
+  {
+    "ingredient": "taco shells",
+    "quantity": 8,
+    "unit": "shell"
+  },
+  {
+    "ingredient": "lettuce",
+    "quantity": 0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "tomatoes",
+    "quantity": 0,
+    "unit": "piece"
+  },
+  {
+    "ingredient": "cheese",
+    "quantity": 0,
+    "unit": "piece"
+  }
+]

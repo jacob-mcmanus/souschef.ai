@@ -14,66 +14,27 @@ def unicode_fraction_to_float(text):
     return text
 
 def pre_process_input(recipe):
-    prompt_template = f"""
-    You are an expert recipe parser. Your task is to extract ingredients from the provided text into a structured JSON array.
-
-    ### Rules
-    1.  **ingredient**: Use the lowercase, singular form of the ingredient name. (e.g., "2 large eggs" becomes "egg").
-    2.  **quantity**: Provide the numeric quantity as a decimal. If there is no quantity available for the specific ingredient (e.g., "Pepper to taste"), set the quantity as 0.
-    3.  **unit**: Use the lowercase, singular form of the unit (e.g., "cups" becomes "cup"). If there is no unit available for the specific ingredient (e.g., "Pepper to taste"), the value must be `null`.
-
-
-    ### Example
-    **Example Input Text:**
-        2 large eggs
-        1/2 cup all-purpose flour
-        1 Teaspoon of Salt
-        Pepper to Taste
-
-    **Example Output JSON:**
-        ```json
-        [
-        {{
-            "ingredient": "egg",
-            "quantity": 2,
-            "unit": "large"
-        }},
-        {{
-            "ingredient": "all-purpose flour",
-            "quantity": 0.5,
-            "unit": "cup"
-        }},
-        {{
-            "ingredient": "salt",
-            "quantity": 1,
-            "unit": "teaspoon"
-        }},
-        {{
-            "ingredient": "pepper",
-            "quantity": 0,
-            "unit": "null"
-        }}
-        ]
-        ```
     """
-
+    Formats the raw recipe text for the LLM.
+    """
     processed_recipe = unicode_fraction_to_float(recipe)
     
     final_prompt = (
-        prompt_template +
-        "\n### Recipe to Parse\n" +
-        f"**Input Text:**\n{processed_recipe.strip()}\n\n" +
-        "(Respond ONLY with the JSON array. No explanation, no markdown, no extra text. Remember to convert all fractions into the corresponding decimal values.) Output:\n"
+        "You are an expert recipe parser. Extract the ingredients from the following text "
+        "into a structured JSON array. \n"
+        "Rules:\n"
+        "1. 'ingredient' must be lowercase and singular (e.g., 'eggs' -> 'egg').\n"
+        "2. 'quantity' MUST be a numeric decimal value. Do not use strings.\n"
+        "3. If a quantity is ambiguous or non-numeric (e.g., 'to taste', 'a pinch', 'a dash'), the 'quantity' MUST be 0.\n"
+        "4. If no quantity is specified at all, the 'quantity' MUST be 0.\n"
+        "5. 'unit' must be lowercase and singular. If no unit is given, infer the most appropriate one (e.g., 'piece' for an egg, 'clove' for garlic, 'teaspoon' for powders, like salt and pepper).\n\n"
+        f"Input Text:\n---\n{processed_recipe.strip()}\n---\n\n"
+        "Respond ONLY with the JSON array. Do not include explanations or any extra text."
     )
-
     return final_prompt
 
 def extract_json_from_output(text):
-    # Find the position of "Output:"
-    output_idx = text.find("Output:")
-    if output_idx != -1:
-        text = text[output_idx + len("Output:") :]
-    # Now extract the first JSON array after Output:
+    # Extract the JSON Array
     try:
         json_block = re.search(r"\[.*?\]", text, re.DOTALL).group()
         return json.loads(json_block)
