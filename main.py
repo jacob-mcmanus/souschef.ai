@@ -26,7 +26,7 @@ class SousChefAI:
 
         # Initialize the LLM for parsing recipe text.
         self.llm = LLM.Gemma_2B_LLM()
-        # Initialize the RecipeAnalyzer for fetching nutritional data.
+        # # Initialize the RecipeAnalyzer for fetching nutritional data.
         self.calculator = RecipeAnalyzer(api_key=<key>)
         
         # This will store the detailed nutritional data for the details popup.
@@ -72,10 +72,17 @@ class SousChefAI:
 
         # --- Details Button ---
         # This button is initially disabled and is enabled only after a successful analysis.
-        self.details_button = tk.Button(main_frame, text="View Full Nutrition", state=tk.DISABLED, command=self.show_full_nutrition)
-        self.details_button.pack(pady=10)
-        self.substitutions_button = tk.Button(main_frame, text="View Substitutions", state=tk.DISABLED, command=self.show_substitutions)
-        self.substitutions_button.pack(pady=10)
+        # Create a row frame to hold both buttons
+        button_row = tk.Frame(main_frame, bg=self.BG_COLOR)
+        button_row.pack(pady=10)
+
+        self.details_button = tk.Button(button_row, text="View Full Nutrition", state=tk.DISABLED,
+                                        command=self.show_full_nutrition)
+        self.details_button.grid(row=0, column=0, padx=10)
+
+        self.substitutions_button = tk.Button(button_row, text="View Substitutions", state=tk.DISABLED,
+                                              command=self.show_substitutions)
+        self.substitutions_button.grid(row=0, column=1, padx=10)
 
     def process_recipe(self):
         """

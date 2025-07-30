@@ -5,7 +5,7 @@ import re
 import time
 from fuzzywuzzy import fuzz
 
-API_KEY = "2az05DBjG2m57AEHKof1D8VwU4EMPtudpaSQMNT5"
+API_KEY = "API KEY"
 INPUT_GML = "enhanced_graph.gml"
 OUTPUT_GML = "ingredient_substitutions_enriched.gml"
 OUTPUT_TXT = "ingredient_substitutions_enriched.txt"
