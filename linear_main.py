@@ -1,5 +1,6 @@
 from llm import LLM, recipe_parser as rp
 from recipe_analyzer import *
+from IngredientFinder import batch_substitution_report
 
 def main():
     # Initiate LLM
@@ -20,6 +21,9 @@ def main():
     
     # Print JSON for Debugging Purposes
     rp.print_JSON(recipe_json)
+
+    #print substitutions
+    print(batch_substitution_report(recipe_json))
             
 if __name__ == "__main__":
     main()

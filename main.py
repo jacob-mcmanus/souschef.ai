@@ -1,9 +1,11 @@
+import base64
 import tkinter as tk
 from tkinter import scrolledtext
 import json
 import threading
 from llm import LLM, recipe_parser as rp
 from recipe_analyzer import RecipeAnalyzer
+from IngredientFinder import batch_substitution_report
 
 class SousChefAI:
     """
@@ -29,7 +31,7 @@ class SousChefAI:
         
         # This will store the detailed nutritional data for the details popup.
         self.full_nutrition_data = None
-        
+        self.recipe_json = None
         # Build the user interface.
         self._create_widgets()
 
@@ -72,6 +74,8 @@ class SousChefAI:
         # This button is initially disabled and is enabled only after a successful analysis.
         self.details_button = tk.Button(main_frame, text="View Full Nutrition", state=tk.DISABLED, command=self.show_full_nutrition)
         self.details_button.pack(pady=10)
+        self.substitutions_button = tk.Button(main_frame, text="View Substitutions", state=tk.DISABLED, command=self.show_substitutions)
+        self.substitutions_button.pack(pady=10)
 
     def process_recipe(self):
         """
@@ -108,7 +112,7 @@ class SousChefAI:
             prompt = rp.pre_process_input(raw_input_text)
             response = self.llm.run(prompt)
             recipe_json = rp.extract_json_from_output(response)
-            
+            self.recipe_json = recipe_json
             # Step 2: Use the parsed JSON to get nutritional data.
             recipe_analysis = self.calculator.analyze_recipe(recipe_json)
         except Exception as e:
@@ -145,6 +149,8 @@ class SousChefAI:
         self.full_nutrition_data = analysis_data.get("full_data")
         if self.full_nutrition_data:
             self.details_button.config(state=tk.NORMAL)
+        if self.recipe_json:
+            self.substitutions_button.config(state=tk.NORMAL)
 
     def show_full_nutrition(self):
         """Opens a new Toplevel window to display all nutritional details."""
@@ -162,6 +168,24 @@ class SousChefAI:
         
         # Format the JSON data
         formatted_text = json.dumps(self.full_nutrition_data, indent=2)
+        text_area.insert(tk.END, formatted_text)
+        # Disable editing of the text area
+        text_area.config(state=tk.DISABLED)
+
+    def show_substitutions(self):
+        """Opens a new Toplevel window to display all nutritional details."""
+        if not self.recipe_json:
+            return
+
+        # Create a new, separate window for the details.
+        popup = tk.Toplevel(self.root)
+        popup.title("Alternative Ingredients")
+        popup.geometry("400x500")
+
+        text_area = scrolledtext.ScrolledText(popup, wrap=tk.WORD, font=("Courier New", 10))
+        text_area.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        formatted_text = batch_substitution_report(self.recipe_json)
         text_area.insert(tk.END, formatted_text)
         # Disable editing of the text area
         text_area.config(state=tk.DISABLED)
