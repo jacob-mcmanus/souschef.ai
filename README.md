@@ -98,3 +98,4 @@ The repository includes scripts to test the performance of the system:
 
 -   **Evaluate LLM Parsing**: `test_LLMs.py` runs a set of test recipes through different LLMs and calculates F1 scores, accuracy, and inference time for ingredient parsing.
 -   **Evaluate Nutritional Accuracy**: `test_values.py` evaluates the end-to-end accuracy of the system by comparing the final nutritional values against a ground-truth dataset.
+-   **Evaluate Knowledge Graph Efficacy**: `TestSub.py` evaluates the efficacy of the graph search for finding ingredient substitutions against the Spoonacular API alternative.
