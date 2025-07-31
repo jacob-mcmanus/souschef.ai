@@ -171,9 +171,9 @@ def batch_substitution_report(json_inout):
             output_lines.append(f"{original_input} -> Substitutions found but no best match")
     return "\n".join(output_lines)
 
-def extract_ingredients(json_string):
+def extract_ingredients(data):
     try:
-        data = json.loads(json_string)
+        #data = json.loads(json_string)
         return [item["ingredient"] for item in data if "ingredient" in item]
     except json.JSONDecodeError:
         print("Invalid JSON input.")

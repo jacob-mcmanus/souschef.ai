@@ -1,4 +1,3 @@
-import base64
 import tkinter as tk
 from tkinter import scrolledtext
 import json
@@ -18,7 +17,7 @@ class SousChefAI:
         """
         self.root = root
         self.root.title("Sous-Chef.ai Nutrition Analyzer")
-        self.root.geometry("550x480")
+        self.root.geometry("550x500")
 
         self.BG_COLOR = "#5F8575"  # A muted green (same as presentation)
         self.FG_COLOR = "#FFFFFF"  # White text for contrast
@@ -27,7 +26,10 @@ class SousChefAI:
         # Initialize the LLM for parsing recipe text.
         self.llm = LLM.Gemma_2B_LLM()
         # # Initialize the RecipeAnalyzer for fetching nutritional data.
-        self.calculator = RecipeAnalyzer(api_key=<key>)
+        api_key = None
+        with open('api_key.txt', 'r') as file: 
+            api_key = file.read()
+        self.calculator = RecipeAnalyzer(api_key)
         
         # This will store the detailed nutritional data for the details popup.
         self.full_nutrition_data = None
@@ -132,8 +134,7 @@ class SousChefAI:
 
     def _update_summary_labels(self, analysis_data):
         """
-        Safely updates the main GUI labels with the analysis results. This method
-        is always called on the main GUI thread.
+        Safely updates the main GUI labels with the analysis results.
         """
         # Re-enable the analyze button now that the process is complete.
         self.analyze_button.config(state=tk.NORMAL, text="Analyze Recipe")

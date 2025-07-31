@@ -6,6 +6,12 @@ def main():
     # Initiate LLM
     llm = LLM.Gemma_2B_LLM()
     
+    # Load Analyzer
+    api_key = None
+    with open('api_key.txt', 'r') as file: 
+        api_key = file.read()
+    analyzer = RecipeAnalyzer(api_key)
+    
     # Get user recipe here [would be from user input in full model]
     with open("recipe.txt", "r", encoding="utf-8") as f:
         raw_input_text = f.read()
@@ -21,6 +27,12 @@ def main():
     
     # Print JSON for Debugging Purposes
     rp.print_JSON(recipe_json)
+    
+    # Run Analyzer and print values
+    values = analyzer.analyze_recipe(recipe_json)
+    
+    print(values)
+    print("")
 
     #print substitutions
     print(batch_substitution_report(recipe_json))

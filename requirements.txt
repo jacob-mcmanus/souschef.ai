@@ -1,0 +1,9 @@
+requests
+networkx
+rapidfuzz
+inflect
+torch
+transformers
+matplotlib
+numpy
+beautifulsoup4
